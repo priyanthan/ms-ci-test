@@ -2,12 +2,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var request = require('request');
 
-// comment add for branch development
-// 2nd comment for branch developement
-//comment
-//comment
-//comment
-//comment
+
 app.get('/', function(req, res){
   var options = {
     url: "https://api.millionspaces.com/api/payment/paycrop",
